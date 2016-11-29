@@ -369,7 +369,7 @@ func main() {
 					dpbs += "/" + dp.Proto()
 				}
 				dpb = append(dpb, dpbs)
-				parts = append(parts, "--port", strings.Join(dpb, ":"))
+				parts = append(parts, "--publish", strings.Join(dpb, ":"))
 			}
 		}
 	}
